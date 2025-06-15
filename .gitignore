@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+
+# SwiftPM
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage (안 쓰면 삭제 가능)
+Carthage/
+Carthage.build/
+
+# Firebase / API Key / 환경 변수
+GoogleService-Info.plist
+.env
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output/
+fastlane/screenshots/
+
+# 기타
+*.log
+.idea/
+.vscode/
+*.orig
+*.tmp
+
